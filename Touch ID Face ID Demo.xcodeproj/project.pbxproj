@@ -13,6 +13,9 @@
 		D6B0F1F629F8100400D71E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0F1F429F8100400D71E80 /* Main.storyboard */; };
 		D6B0F1F829F8100500D71E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B0F1F729F8100500D71E80 /* Assets.xcassets */; };
 		D6B0F1FB29F8100500D71E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B0F1F929F8100500D71E80 /* LaunchScreen.storyboard */; };
+		D6B0F20329F810A400D71E80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0F20229F810A400D71E80 /* LoginViewController.swift */; };
+		D6B0F20529F81DE900D71E80 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0F20429F81DE900D71E80 /* NewsTableViewCell.swift */; };
+		D6B0F20729F81E0000D71E80 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0F20629F81E0000D71E80 /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D6B0F1F729F8100500D71E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B0F1FA29F8100500D71E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B0F1FC29F8100500D71E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B0F20229F810A400D71E80 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6B0F20429F81DE900D71E80 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		D6B0F20629F81E0000D71E80 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				D6B0F1F729F8100500D71E80 /* Assets.xcassets */,
 				D6B0F1F929F8100500D71E80 /* LaunchScreen.storyboard */,
 				D6B0F1FC29F8100500D71E80 /* Info.plist */,
+				D6B0F20229F810A400D71E80 /* LoginViewController.swift */,
+				D6B0F20429F81DE900D71E80 /* NewsTableViewCell.swift */,
+				D6B0F20629F81E0000D71E80 /* NewsTableViewController.swift */,
 			);
 			path = "Touch ID Face ID Demo";
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B0F20329F810A400D71E80 /* LoginViewController.swift in Sources */,
 				D6B0F1F329F8100400D71E80 /* ViewController.swift in Sources */,
+				D6B0F20729F81E0000D71E80 /* NewsTableViewController.swift in Sources */,
+				D6B0F20529F81DE900D71E80 /* NewsTableViewCell.swift in Sources */,
 				D6B0F1EF29F8100400D71E80 /* AppDelegate.swift in Sources */,
 				D6B0F1F129F8100400D71E80 /* SceneDelegate.swift in Sources */,
 			);
